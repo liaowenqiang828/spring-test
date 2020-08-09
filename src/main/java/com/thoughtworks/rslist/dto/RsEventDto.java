@@ -21,6 +21,6 @@ public class RsEventDto {
   private int voteNum;
   @ManyToOne private UserDto user;
 
-  @OneToMany(cascade = CascadeType.REMOVE, mappedBy = "trade")
+  @OneToMany(cascade = CascadeType.REMOVE, mappedBy = "id")
   private List<TradeDto> tradeDtos;
 }

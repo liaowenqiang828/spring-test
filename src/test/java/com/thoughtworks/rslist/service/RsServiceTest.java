@@ -55,7 +55,7 @@ class RsServiceTest {
         RsEventDto.builder()
             .eventName("event name")
             .id(1)
-            .keyword("keyword")
+            .keyWord("keyword")
             .voteNum(2)
             .user(userDto)
             .build();

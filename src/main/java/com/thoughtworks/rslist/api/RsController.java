@@ -42,7 +42,7 @@ public class RsController {
                 item ->
                     RsEvent.builder()
                         .eventName(item.getEventName())
-                        .keyword(item.getKeyword())
+                        .keyWord(item.getKeyWord())
                         .userId(item.getId())
                         .voteNum(item.getVoteNum())
                         .build())
@@ -61,7 +61,7 @@ public class RsController {
                 item ->
                     RsEvent.builder()
                         .eventName(item.getEventName())
-                        .keyword(item.getKeyword())
+                        .keyWord(item.getKeyWord())
                         .userId(item.getId())
                         .voteNum(item.getVoteNum())
                         .build())
@@ -80,7 +80,7 @@ public class RsController {
     }
     RsEventDto build =
         RsEventDto.builder()
-            .keyword(rsEvent.getKeyword())
+            .keyWord(rsEvent.getKeyWord())
             .eventName(rsEvent.getEventName())
             .voteNum(0)
             .user(userDto.get())

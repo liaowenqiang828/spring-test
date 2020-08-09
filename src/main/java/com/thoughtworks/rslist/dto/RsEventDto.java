@@ -20,7 +20,7 @@ import javax.persistence.Table;
 public class RsEventDto {
   @Id @GeneratedValue private int id;
   private String eventName;
-  private String keyword;
+  private String keyWord;
   private int voteNum;
   @ManyToOne private UserDto user;
 }

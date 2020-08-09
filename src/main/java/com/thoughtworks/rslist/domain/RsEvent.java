@@ -14,7 +14,7 @@ import java.io.Serializable;
 @Data
 public class RsEvent implements Serializable {
   @NotNull private String eventName;
-  @NotNull private String keyword;
+  @NotNull private String keyWord;
   private int voteNum;
   @NotNull private int userId;
 }
